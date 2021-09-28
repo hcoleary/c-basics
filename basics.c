@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
    * The printed number will have 16 total characters, with 4 characters after
    * the decimal point, and it'll be zero-padded at the front.
    */
-  printf("== pi is: %016.4f\n", pi);
+  printf("== pi is: %16.4f\n", pi);
 
   /*
    * Printing a single character with printf() with the %c placeholder.
@@ -29,11 +29,11 @@ int main(int argc, char** argv) {
    * If statements look the same in C as they look in C++.
    */
   if (pi > 3) {
-    printf("== pi is bigger than 3\n");
+    printf("= pi is bigger than 3\n");
   } else if (pi > 2) {
-    printf("== pi is bigger than 2\n");
+    printf("= pi is bigger than 2\n");
   } else {
-    printf("== pi is *NOT* bigger than 2\n");
+    printf("= pi is *NOT* bigger than 2\n");
   }
 
   /*
